@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+}
+:root {
+    --primOrangeColor : #FF5400;
+}
+/*font*/
+.font_Mulish{
+    font-family: 'Mulish', sans-serif;
+}
+.font_Inter{
+    font-family: 'Inter', sans-serif;
+}
+/*Header Nav Style*/
+.navDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navDiv img{
+    width:3rem;
+    height: 3.5rem;
+}
+.brandLogo{
+    display: flex;
+    align-items: center;
+}
+.brandName{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+.navLink{
+    display: flex;
+    align-items: center;
+}
+.navLink ul{
+    display: flex;
+    gap: 44px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+.navLink .navIcon{
+    display: none;
+    align-items: center;
+}
+#HomeLink{
+    color: var(--primOrangeColor);
+    font-size: 18px;
+    font-weight: 700;
+}
+#travelDesign{
+    color: var(--primOrangeColor);
+}
+a{
+    text-decoration: none;
+    color: #424247;
+}
+/*Banner Style*/
+.bannerSection{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.bannerDiv {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('./Images/Group%2013%20(1)%20(1).png') no-repeat;
+    height: 31rem;
+    width: 73rem;
+    /* box-sizing: content-box; */
+    border-radius: 16px;
+    text-align: center;
+}
+.bannerTitle{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-top: 106px;
+    margin-bottom: 1.5rem;
+}
+.bannerDescription{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 auto;
+    width: 676px;
+    height: 5rem;
+}
+.btn-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    width: 11rem;
+    height: 3.5rem;
+    border-radius: 0.5rem;
+    border: 0;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+.searchForm{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 800px;
+    height: 84px;
+}
+.form{
+    display: inline-flex;
+    gap: 1.5rem;
+}
+.form input,select{
+    width: 11rem;
+    height: 3.5rem;
+    border-radius: 0.5rem;
+    border: 0;
+    font-family: Mulish;
+}
+::placeholder{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 1rem;
+    font-family: Mulish;
+}
+select{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 1rem;
+}
+/*popular div*/
+.popularSection{
+    margin-top: 6.25rem;
+}
+.popularContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 73.125rem;
+    align-items: center;
+    /* height: auto; */
+}
+.PopularLeftDiv{
+    width: 34.375rem;
+    height: 34.375rem;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.PopularLeftDiv ul{
+    padding-left: 1.25rem;
+}
+.PopularLeftDiv button{
+    margin-top: 2rem;
+    font-size: 20px;
+    font-weight: 800;
+}
+.PopularImg{
+    width: 34.375rem;
+    height: 34.375rem;
+}
+.popularTitle{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+/* Media Query For Mobile */
+@media screen and (max-width:600px) {
+    *{
+        padding: 0;
+    }
+    nav {
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+    .brandName {
+        font-size: 21px; 
+        font-weight: 800;
+    }
+    .navLink ul {
+        display: none;
+    }
+    .navLink .navIcon {
+        display: block;
+        width: 1.5rem;
+        height: 1.5rem;
+        position: relative;
+        top: -20px;
+        left: -20px;
+    }
+    .bannerTitle {
+        font-size: 22px;
+        margin-top: 32px;
+    }
+    .bannerDiv {
+        width: 21rem;
+        height: 31rem;
+    }
+    .bannerDescription {
+        font-size: 14px;
+        line-height: 21px;
+        width: 19rem;
+        height: auto;
+    }
+    .form input, select {
+        width: 16rem;
+        height: 3.25rem;
+    }
+    .searchForm {
+        flex-direction: column;
+        width: 18rem;
+        height: 19rem;
+        padding-top: 1rem;
+        margin-top: 2rem;
+    }
+    .form {
+        flex-direction: column;
+    }
+    .searchForm button {
+        width: 16rem;
+        height: 52px;
+    }
+    /* Popular Div */
+    .popularSection{
+        margin-top: 1.5rem;
+    }
+    .popularContainer{
+        flex-direction: column;
+        gap: 18rem;
+        width: 21rem;
+    }
+    .PopularLeftDiv{
+        width: 21rem;
+        height: 21rem;
+        font-size: 14px;
+    }
+    .popularTitle{
+        width: 11.125rem;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .PopularImg{
+        width: 21rem;
+        height: 21rem;
+    }
+    .PopularImg img{
+        width: 100%;
+        height: 100%;
+    }
+    .PopularLeftDiv button{
+        font-size: 20px;
+    }
+}
