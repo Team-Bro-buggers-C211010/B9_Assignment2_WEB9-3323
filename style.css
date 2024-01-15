@@ -176,6 +176,100 @@ select{
     font-size: 40px;
     font-weight: 800;
 }
+/*Destination Section*/
+.destinationContainer{
+    text-align: center;
+}
+.destinationContainer h1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.destinationContainer p{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 643px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+.tripsDiv{
+    display: grid;
+    row-gap: 24px;
+    width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+}
+.tripsDiv h3{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+    top:35%;
+}
+.BanBand{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 24px;
+}
+.malInd{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+}
+.SriNorKas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 24px;
+}
+.Maldives {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle%205.png') no-repeat;
+    background-size: cover;
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+}
+.Indonesia{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle\ 8.png') no-repeat;
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+}
+.Srilanka{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle\ 6.png') no-repeat;
+    width: 374px;
+    height: 286px;
+    border-radius: 16px;
+}
+.NorthAmerica{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle\ 7.png') no-repeat;
+    width: 474px;
+    height: 286px;
+    border-radius: 16px;
+}
+.Kashmir{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle\ 9.png') no-repeat;
+    width: 274px;
+    height: 286px;
+    border-radius: 16px;
+}
+.Bangladesh{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle\ 11.png') no-repeat;
+    width: 473px;
+    height: 300px;
+    border-radius: 16px;
+}
+.Bandarban{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle\ 10.png') no-repeat;
+    width: 673px;
+    height: 300px;
+    border-radius: 16px;
+}
 /* Media Query For Mobile */
 @media screen and (max-width:600px) {
     *{
@@ -262,5 +356,28 @@ select{
     }
     .PopularLeftDiv button{
         font-size: 20px;
+    }
+    .malInd,.SriNorKas,.BanBand{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .Bandarban,.Bangladesh,.Indonesia,.Kashmir,.Maldives,.NorthAmerica,.Srilanka,.malInd,.SriNorKas,.BanBand,.tripsDiv{
+        width: 335px;
+height: 176px;
+    }
+    .SriNorKas{
+        margin-top: 9.55rem;
+    }
+    .BanBand{
+        margin-top: 20.55rem;
+    }
+    .Kashmir{
+        background-image: url('./Images/Rectangle\ 9_Responsive.png');
+    }
+    .destinationContainer h1{
+        font-size: 20px;
+    }
+    .destinationContainer p{
+        width: 309px;
+        font-size: 14px;
     }
 }
