@@ -329,6 +329,122 @@ select{
     font-weight: 400;
     line-height: 26px;
 }
+/*Deals Section*/
+.dealsSection button{
+    margin: 0 auto;
+}
+.dealsTitle{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.dealsDescription{
+    color: rgba(19, 19, 24, 0.70);
+    width: 643px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+.dealsTitle,.dealsDescription{
+    text-align: center;
+}
+.dealsConatinerDiv{
+    display: flex;
+    justify-content: center;
+}
+.cardRightFloat{
+    background-image: url('./Images/Group39.png');
+    border-radius: 16px;
+    width: 1170px;
+    height: 500px;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 56px;
+}
+.cardLeftFloat{
+    background-image: url('./Images/Group40.png');
+    border-radius: 16px;
+    width: 1170px;
+    height: 500px;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    padding-left: 56px;
+}
+.innerCrad{
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.innerCrad ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+li{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 1.5rem;
+}
+li img{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.innerCrad h3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.tourdes{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.priceTag{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.innerCrad h3,p{
+    padding-left: 50px;
+}
+.innerCrad button{
+    margin-left: 50px;
+    width: 150px;
+    height: 52px;
+    border-radius: 8px;
+}
 /*Review Section*/
 .reviewSection >h1{
     text-align: center;
@@ -557,7 +673,8 @@ footer{
     }
     .bannerDiv {
         width: 21rem;
-        height: 31rem;
+        height: 33rem;
+        background-size: cover;
     }
     .bannerDescription {
         font-size: 14px;
@@ -660,10 +777,15 @@ footer{
     .chooseContainer h3{
         font-size: 20px;
     }
-    .chooseContainer p{
+    .chooseContainer >p{
         font-size: 14px;
         width: 309px;
     }
+    .cards p{
+        width: 271px;
+        font-size: 14px;
+    }
+
     /*NewsLetter Section*/
     .newsletterContainer{
         flex-direction: column;
@@ -744,5 +866,58 @@ footer{
     }
     .reviewCard{
         padding: 30px;
+    }
+    /*Deals section*/
+    .cardLeftFloat,.cardRightFloat{
+        width: 335px;
+        height: 500px;
+        justify-content: flex-end;
+        flex-direction: column;
+        padding: 0;
+        padding-bottom: 1rem;
+    }
+    .dealsTitle{
+        font-size: 20px;
+    }
+    .dealsDescription{
+        width: 309px;
+        font-size: 14px;
+    }
+    .innerCrad{
+        width: 303px;
+        height: 297px;
+    }
+    .innerCrad h3{
+        font-size: 20px;
+        margin-top: 1rem;
+    }
+    .innerCrad .tourdes{
+        font-size: 12px;
+        text-overflow:ellipsis;
+        width: 254px;
+        height: 48px;
+        line-height: 14px;
+    }
+    .innerCrad ul{
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        padding-left: 10px;
+    }
+    .innerCrad h3,p{
+        padding-left: 10px;
+    }
+    .innerCrad button{
+        margin-left: 10px;
+        width: 130px;
+        height: 40px;
+        font-size: 18px;
+    }
+    .priceTag{
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 12px;
+    }
+    .dealsSection button{
+        display: none;
     }
 }
