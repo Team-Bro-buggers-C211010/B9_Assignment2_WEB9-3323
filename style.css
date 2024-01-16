@@ -330,6 +330,77 @@ select{
     font-weight: 400;
     line-height: 26px;
 }
+/*Review Section*/
+.reviewSection >h1{
+    text-align: center;
+}
+.reviewSection >p{
+    text-align: center;
+}
+.reviewContainer{
+    width: 585px;
+}
+.reviewCard{
+    width: 473px;
+    height: 254px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 198, 55, 0.436);
+    background: rgba(241, 152, 27, 0.134);
+    padding: 20px;
+    padding-top: 0;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+.reviewHead{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.reviewCard img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.reviewCard h1{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.Rating{
+    color: #131318;
+    font-size: 18px;
+    font-weight: 700;
+}
+.rateTitle{
+    color: #FF5400;
+}
+.reviewDescription{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.reviewSection > div{
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 24px;
+    width: 585px;
+}
+.reviewSection h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+.reviewSection >p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
 /*Newsletter Div*/
 .newsletterContainer{
     display: flex;
@@ -601,7 +672,6 @@ footer{
     }
     .NewsletterDiv,.NewsletterImg{
         width: 335px;
-        /* height: 300px; */
         margin: 0 auto;
     }
     .NewsletterDiv{
@@ -647,5 +717,12 @@ footer{
     } 
     .rights{
         font-size: 14px;
+    }
+    /*Review Section*/
+    .reviewSection div{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 0;
+        width: 335px;
+        margin: 0 auto;
     }
 }
