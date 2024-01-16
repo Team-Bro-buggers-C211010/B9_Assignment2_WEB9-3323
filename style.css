@@ -724,4 +724,25 @@ footer{
         width: 335px;
         margin: 0 auto;
     }
+    .reviewSection>h1{
+        font-size: 20px;
+    }
+    .reviewSection > p{
+        width: 309px;
+        font-size: 14px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+    .reviewHead h1{
+        font-size: 20px;
+    }
+    .Rating{
+        font-size: 16px;
+    }
+    .reviewDescription{
+        font-size: 14px;
+    }
+    .reviewCard{
+        padding: 30px;
+    }
 }
