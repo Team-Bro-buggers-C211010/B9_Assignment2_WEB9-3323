@@ -64,7 +64,7 @@ a{
     margin-top: 3rem;
 }
 .bannerDiv {
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('./Images/Group%2013%20(1)%20(1).png') no-repeat;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('./Images/Group13.png') no-repeat;
     height: 31rem;
     width: 73rem;
     /* box-sizing: content-box; */
@@ -147,7 +147,6 @@ select{
     margin: 0 auto;
     width: 73.125rem;
     align-items: center;
-    /* height: auto; */
 }
 .PopularLeftDiv{
     width: 34.375rem;
@@ -227,44 +226,44 @@ select{
     column-gap: 24px;
 }
 .Maldives {
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle%205.png') no-repeat;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle5.png') no-repeat;
     background-size: cover;
     width: 573px;
     height: 300px;
     border-radius: 16px;
 }
 .Indonesia{
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle\ 8.png') no-repeat;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle8.png') no-repeat;
     width: 573px;
     height: 300px;
     border-radius: 16px;
 }
 .Srilanka{
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle\ 6.png') no-repeat;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle6.png') no-repeat;
     width: 374px;
     height: 286px;
     border-radius: 16px;
 }
 .NorthAmerica{
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle\ 7.png') no-repeat;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle7.png') no-repeat;
     width: 474px;
     height: 286px;
     border-radius: 16px;
 }
 .Kashmir{
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle\ 9.png') no-repeat;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle9.png') no-repeat;
     width: 274px;
     height: 286px;
     border-radius: 16px;
 }
 .Bangladesh{
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle\ 11.png') no-repeat;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle11.png') no-repeat;
     width: 473px;
     height: 300px;
     border-radius: 16px;
 }
 .Bandarban{
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle\ 10.png') no-repeat;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle10.png') no-repeat;
     width: 673px;
     height: 300px;
     border-radius: 16px;
@@ -448,7 +447,7 @@ select{
     font-weight: 800;
 }
 .NewsletterImg{
-    background-image: url('./Images/Rectangle\ 8\ \(1\).png');
+    background-image: url('./Images/Rectangle81.png');
     background-repeat: no-repeat;
     width: 42rem;
     height: 26.375rem;
@@ -625,7 +624,7 @@ footer{
         row-gap: 24px;
     }
     .Kashmir{
-        background-image: url('./Images/Rectangle\ 9_Responsive.png');
+        background-image: url('./Images/Rectangle9_Responsive.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
