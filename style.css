@@ -201,7 +201,6 @@ select{
     display: grid;
     row-gap: 24px;
     width: 1170px;
-    height: 500px;
     margin: 0 auto;
 }
 .tripsDiv h3{
@@ -269,6 +268,67 @@ select{
     width: 673px;
     height: 300px;
     border-radius: 16px;
+}
+/*Why Choose Us Section*/
+.chooseContainer h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+.chooseContainer>p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 643px;
+    margin: 0 auto;
+    text-align: center;
+}
+.chooseContainer h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.cardContainer p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.cardContainer{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    width: 573px;
+    height: 284px;
+    padding: 32px;
+}
+.card1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-right: 24px;
+}
+.card2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.card3{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: 0 auto;
+    margin-top: 24px;
+}
+.card3 p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
 /* Media Query For Mobile */
 @media screen and (max-width:600px) {
@@ -357,21 +417,20 @@ select{
     .PopularLeftDiv button{
         font-size: 20px;
     }
+/*Destination Trips Section*/
     .malInd,.SriNorKas,.BanBand{
         grid-template-columns: repeat(1,1fr);
     }
     .Bandarban,.Bangladesh,.Indonesia,.Kashmir,.Maldives,.NorthAmerica,.Srilanka,.malInd,.SriNorKas,.BanBand,.tripsDiv{
         width: 335px;
-height: 176px;
     }
-    .SriNorKas{
-        margin-top: 9.55rem;
-    }
-    .BanBand{
-        margin-top: 20.55rem;
+    .BanBand,.SriNorKas,.malInd{
+        row-gap: 24px;
     }
     .Kashmir{
         background-image: url('./Images/Rectangle\ 9_Responsive.png');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .destinationContainer h1{
         font-size: 20px;
@@ -379,5 +438,34 @@ height: 176px;
     .destinationContainer p{
         width: 309px;
         font-size: 14px;
+    }
+    /*Why Choose Section*/
+    .chooseContainer h1{
+        font-size: 20px;
+    }
+    .chooseContainer > P{
+        font-size: 14px;
+    }
+    .cardContainer{
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .cards{
+        width: 335px;
+        height: 289px;
+        margin: 0 auto;
+    }
+    .chooseContainer img{
+        width: 3rem;
+        height: 3rem;
+    }
+    .chooseContainer h3{
+        font-size: 20px;
+    }
+    .chooseContainer p{
+        font-size: 14px;
+        width: 309px;
     }
 }
