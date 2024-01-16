@@ -226,20 +226,20 @@ select{
     column-gap: 24px;
 }
 .Maldives {
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle5.png') no-repeat;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('./Images/Rectangle5.png') no-repeat;
     background-size: cover;
     width: 573px;
     height: 300px;
     border-radius: 16px;
 }
 .Indonesia{
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle8.png') no-repeat;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('./Images/Rectangle8.png') no-repeat;
     width: 573px;
     height: 300px;
     border-radius: 16px;
 }
 .Srilanka{
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('/Images/Rectangle6.png') no-repeat;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('./Images/Rectangle6.png') no-repeat;
     width: 374px;
     height: 286px;
     border-radius: 16px;
