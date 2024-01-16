@@ -330,6 +330,87 @@ select{
     font-weight: 400;
     line-height: 26px;
 }
+/*Newsletter Div*/
+.newsletterContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 6.25rem;
+}
+.NewsletterDiv{
+    width: 29.625rem;
+    height: 26.375rem;
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+    margin-right: 1.5rem;
+    padding: 2.5rem;
+    padding-top: 1.5rem;
+}
+.NewsletterDiv h3{
+    
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.NewsletterDiv p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.NewsletterDiv hr{
+    background: rgba(19, 19, 24, 0.10);
+    margin-bottom: 1.5rem;
+}
+.NewsletterDiv input{
+    width: 24.5625rem;
+    height: 3.25rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.NewsletterDiv input[type="submit"]{
+    background: #FF5400;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+}
+.NewsletterImg{
+    background-image: url('./Images/Rectangle\ 8\ \(1\).png');
+    background-repeat: no-repeat;
+    width: 42rem;
+    height: 26.375rem;
+    background-size: cover;
+    border-radius: 16px;
+    position: relative;
+}
+.NewsletterImg div{
+    width: 324px;
+    height: 120px;
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    transform: rotate(-19.628deg);
+    position: absolute;
+    bottom: 3rem;
+    right: 1rem;
+}
+.NewsletterImg p{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 25px;
+    position: bottom-right;
+}
+.NewsletterImg h1{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0;
+    
+}
 /* Media Query For Mobile */
 @media screen and (max-width:600px) {
     *{
@@ -467,5 +548,41 @@ select{
     .chooseContainer p{
         font-size: 14px;
         width: 309px;
+    }
+    /*NewsLetter Section*/
+    .newsletterContainer{
+        flex-direction: column;
+        margin-top: 1.5rem;
+    }
+    .NewsletterDiv,.NewsletterImg{
+        width: 335px;
+        /* height: 300px; */
+        margin: 0 auto;
+    }
+    .NewsletterDiv{
+        padding: 1.5rem;
+        margin-bottom: 16px;
+    }
+    .NewsletterDiv h3{
+        font-size: 20px;
+    }
+    .NewsletterDiv p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .NewsletterDiv input{
+        width: 288px;
+        height: 52px;
+    }
+    .NewsletterImg div{
+        width: 214.023px;
+        height: 79.268px;
+    }
+    .NewsletterImg p{
+        font-size: 15.854px;
+        padding-top: 18px;
+    }
+    .NewsletterImg h1{
+        font-size: 21.138px;
     }
 }
