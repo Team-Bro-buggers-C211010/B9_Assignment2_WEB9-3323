@@ -393,7 +393,7 @@ select{
     text-align: center;
     margin-top: 50px;
 }
-li{
+.innerCrad li{
     color: #5A5A5D;
     font-family: Mulish;
     font-size: 16px;
@@ -402,12 +402,12 @@ li{
     line-height: normal;
     margin-right: 1.5rem;
 }
-li img{
+.innerCrad li img{
     width: 24px;
     height: 24px;
     margin-right: 8px;
 }
-ul li {
+.innerCrad ul li {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
@@ -436,7 +436,10 @@ ul li {
     font-weight: 800;
     line-height: normal;
 }
-.innerCrad h3,p{
+.innerCrad h3{
+    padding-left: 50px;
+}
+.innerCrad p{
     padding-left: 50px;
 }
 .innerCrad button{
@@ -706,12 +709,12 @@ footer{
     }
     .popularContainer{
         flex-direction: column;
-        gap: 18rem;
+        gap: 1.5rem;
         width: 21rem;
     }
     .PopularLeftDiv{
         width: 21rem;
-        height: 21rem;
+        /* height: 21rem; */
         font-size: 14px;
     }
     .popularTitle{
@@ -822,6 +825,9 @@ footer{
         font-size: 21.138px;
     }
     /*Footer Section*/
+    footer{
+        margin-top: 1.5rem;
+    }
     .footerContainer .brandLogo h1{
         font-size: 21.543px;
     }
@@ -903,7 +909,10 @@ footer{
         margin-top: 1rem;
         padding-left: 10px;
     }
-    .innerCrad h3,p{
+    .innerCrad h3{
+        padding-left: 10px;
+    }
+    .innerCrad p{
         padding-left: 10px;
     }
     .innerCrad button{
@@ -917,7 +926,8 @@ footer{
         margin-top: 10px;
         margin-bottom: 12px;
     }
-    .dealsSection button{
+    .dealsSection >button{
         display: none;
     }
+
 }
